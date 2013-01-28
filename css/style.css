@@ -1,0 +1,35 @@
+.nav-tabs  {
+	height:50px;
+}
+
+.nav-tabs > li {
+	float:left;
+	margin:0 20px;
+	border:solid 1px red;
+	list-style-type: none;
+}
+
+.nav-tabs > li a {
+	display:inline-block;
+	margin:0;
+	padding:6px 20px;
+}
+
+.nav-tabs > li a:hover,
+.nav-tabs > li a.active {
+	margin:0;
+	padding:6px 20px;
+	background-color:#ccc;
+}
+
+.tab-pane {
+	border: solid 1px blue;
+	padding:20px;
+	display:none;
+
+}
+
+.active {
+	display:block;
+}
+
