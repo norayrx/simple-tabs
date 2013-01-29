@@ -28,11 +28,17 @@
 	// prototype
 	SimpleTabs.prototype = {
 		init: function() {
+			// active css class name
 			this.active = this.options.cssClassOn;
+			
+			// tabs and content panes as jQuery objects
 			this.$tabItems = this.$element.find(this.options.tabItemsSelector);
 			this.$contentPanes = this.$element.find(this.options.tabPanesSelector);
+			
+			// initialize tab events
 			this.initTabItemEvents(this.$tabItems, this.$contentPanes, this.active);
 		},
+
 		initTabItemEvents: function($tabItems, $contentPanes, active) {
 			$tabItems.first().addClass(active);
 			$contentPanes.first().addClass(active);
