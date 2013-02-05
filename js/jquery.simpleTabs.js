@@ -15,8 +15,8 @@
 		tabPanesSelector: ".tab-pane",
 		cssClassOn: "active"
 	};
+	
 	// plugin constructor
-
 	function SimpleTabs(element, options) {
 		this.element = element;
 		this.$element = $(element);
@@ -25,6 +25,7 @@
 		this._name = pluginName;
 		this.init();
 	}
+
 	// prototype
 	SimpleTabs.prototype = {
 		init: function() {
@@ -61,7 +62,8 @@
 		});
 	};
 })(jQuery, window, document);
-// invocation
+
+// invocation for demo purposes
 $(function() {
 	"use strict";
 	$('.simple-tabs').simpleTabs();
