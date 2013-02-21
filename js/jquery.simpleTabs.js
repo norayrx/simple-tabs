@@ -1,7 +1,7 @@
 /*
 *	Project: Simple Tabs
 *	Version: 0.0.1
-*	Description: A Simple as they get for building a tabbed interface
+*	Description: As Simple as they get for building a tabbed interface
 *	Author: R Sturim
 *	License: The MIT License (MIT)
 */
