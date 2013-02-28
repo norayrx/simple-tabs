@@ -62,10 +62,3 @@
 		});
 	};
 })(jQuery, window, document);
-
-// invocation for demo purposes
-$(function() {
-	"use strict";
-	$('.simple-tabs').simpleTabs();
-	$('.simple-tabs-2').simpleTabs();
-});
