@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Simple Tabs Plugin</title>
+	<link rel="stylesheet" href="https://raw.github.com/rsturim/simple-tabs/master/examples/css/style.css" type="text/css">
+</head>
+<body>
+	<div class="simple-tabs">
+		<ul class="tab-items">
+			<li><a href="#tab1">tab1</a></li>
+			<li><a href="#tab2">tab2</a></li>
+			<li><a href="#tab3">tab3</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane" id="tab1">
+				Tab 1 -- Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</div>
+
+			<div class="tab-pane" id="tab2">
+				Tab 2 -- Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</div>
+
+			<div class="tab-pane" id="tab3">
+				Tab 3 -- Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</div>
+		</div>
+	</div>
+
+	<div class="simple-tabs-2">
+		<ul class="tab-items">
+			<li><a href="#tab4">tab4</a></li>
+			<li><a href="#tab5">tab5</a></li>
+			<li><a href="#tab6">tab6</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane" id="tab4">
+				Tab 4 -- Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</div>
+
+			<div class="tab-pane" id="tab5">
+				Tab 5 -- Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</div>
+
+			<div class="tab-pane" id="tab6">
+				Tab 6 -- Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</div>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 	<script src="https://raw.github.com/rsturim/simple-tabs/master/js/jquery.simpleTabs.min.js"></script>
+	<script>
+		// invocation for demo purposes
+		$(function() {
+			"use strict";
+			$('.simple-tabs').simpleTabs();
+			$('.simple-tabs-2').simpleTabs();
+		});
+	</script>
+
+</body>
+</html>
