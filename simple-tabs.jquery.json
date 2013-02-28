@@ -3,8 +3,9 @@
 	"title" : "Simple Tabs",
 	"description" : "When you need tabs with simple mark up.",
 	"version" : "0.0.1",
-	"homepage" : "https://github.com/rsturim/simple-tabs",
-	"demo" : "http://github.com/rsturim/simple-tabs/examples/index.html",
+	"homepage" : "http://rsturim.github.com/simple-tabs",
+	"demo" : "http://rsturim.github.com/simple-tabs/examples/index.html",
+	"download": "https://github.com/rsturim/simple-tabs/zipball/master",
 	"author" : {
 		"name" : "Rich Sturim",
 		"email" : "rich.sturim@gmail.com",
