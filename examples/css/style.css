@@ -1,0 +1,42 @@
+body {
+	font-family:"Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+}
+
+.tab-items  {
+	height:30px;
+	margin:0;
+	padding:0;
+}
+
+.tab-items > li {
+	float:left;
+	margin:0 20px 0 0;
+	list-style-type: none;
+}
+
+.tab-items > li a {
+	display:inline-block;
+	margin:0;
+	padding:5px 20px;
+	color:#333;
+	text-decoration: none;
+}
+
+.tab-items > li:hover,
+.tab-items > li.active {
+	background-color:#ccc;
+	border-bottom:solid 4px red;
+}
+
+.tab-pane {
+	border: solid 1px #333;
+	padding:20px;
+	display:none;
+	margin:0 0 50px 0;
+}
+
+.active {
+	display:block;
+}
+
